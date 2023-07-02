@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProjectIdeaTracker
 {
-    enum ProjectState
+    public enum ProjectState
     { 
         Completed,
         Active,

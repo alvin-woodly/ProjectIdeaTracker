@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProjectIdeaTracker
 {
-    internal class Project
+    public class Project
     {
         public string Title { get; set; }
 
@@ -19,6 +19,8 @@ namespace ProjectIdeaTracker
             Title = title;
             Description = description;
         }
+
+        public override string ToString() => $"{Title}: \n{Description}";
     }
 
    
